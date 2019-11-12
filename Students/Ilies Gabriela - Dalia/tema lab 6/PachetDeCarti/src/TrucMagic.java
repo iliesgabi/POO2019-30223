@@ -43,6 +43,7 @@ public class TrucMagic {
 		Test.testHasNext();
 		Test.testNext();
 		Test.remove();
+		Test.put();
 
 	}
 }

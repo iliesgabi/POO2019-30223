@@ -76,4 +76,29 @@ public class Test {
 			System.out.println(pachetNou[i].getNumar() + " " + pachetNou[i].getSuit());
 		}
 	}
+	
+	public static void put()
+	{
+		Card[] carti = new Card[52];
+		carti[0] = new Card("2", "diamond");
+		DeckOfCards pachet = new DeckOfCards(carti, 1);
+		
+		Card carteNoua1=new Card("2","club");
+		Card carteNoua2=new Card("2","heart");
+		Card carteNoua3=new Card("2","spade");
+		Card carteNoua4=new Card("3","spade");
+		Card carteNoua5=new Card("5","spade");
+		
+		pachet.put(carteNoua1);
+		pachet.put(carteNoua2);
+		pachet.put(carteNoua3);
+		pachet.put(carteNoua4);
+		pachet.put(carteNoua5);
+		
+		for(int i=0; i<pachet.getNrOfCards(); i++)
+		{
+			Card carte = pachet.next();
+			System.out.println(carte.getNumar() + " " + carte.getSuit());
+		}		
+	}
 }
