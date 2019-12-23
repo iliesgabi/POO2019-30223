@@ -5,7 +5,9 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JLabel;
 
+import javasmmr.zoowsome.models.animals.AddAnimalModel;
 import javasmmr.zoowsome.models.animals.Animal;
+import javasmmr.zoowsome.models.employees.AddEmployeeModel;
 import javasmmr.zoowsome.models.employees.Employee;
 
 public class ListController extends AbstractController {
@@ -22,11 +24,9 @@ public class ListController extends AbstractController {
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			if (frame.getMessageString().equals("Employees")) {
-				//Employee[] employee= AddEmployeeModel.getEmployee();
 				AddEmployeeModel.print();
 			}
 			else {
-				//Animal[] animale= AddAnimalModel.getAnimals();
 				AddAnimalModel.print();
 			}
 			

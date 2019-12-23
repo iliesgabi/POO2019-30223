@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JTextField;
 
+import javasmmr.zoowsome.models.animals.AddAnimalModel;
 import javasmmr.zoowsome.models.animals.Animal;
 import javasmmr.zoowsome.models.animals.Butterfly;
 import javasmmr.zoowsome.models.animals.Cockroach;
