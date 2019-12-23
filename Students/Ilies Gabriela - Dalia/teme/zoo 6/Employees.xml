@@ -1,0 +1,9 @@
+<?xml version="1.0"?><content>
+ <EMPLOYEE>
+ 	<id>5471757167293</id>
+	<name>Maria</name>
+	<salary>2500</salary>
+	<isDead>false</isDead>
+	<workingHours>7.0</workingHours>
+</EMPLOYEE>
+ </content>

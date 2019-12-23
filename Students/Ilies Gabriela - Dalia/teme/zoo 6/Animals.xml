@@ -1,0 +1,32 @@
+<?xml version="1.0"?><content>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Marcel</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>0.8</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>100.0</percBodyHair>
+	<DISCRIMINANT>TIGER</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Garfield</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>0.1</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>35.0</normalBodyTemp>
+	<percBodyHair>90.0</percBodyHair>
+	<DISCRIMINANT>CAT</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Teemo</name>
+	<maintenanceCost>8.0</maintenanceCost>
+	<dangerPerc>0.1</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>30.0</normalBodyTemp>
+	<percBodyHair>95.0</percBodyHair>
+	<DISCRIMINANT>DOG</DISCRIMINANT>
+</ANIMAL>
+ </content>
