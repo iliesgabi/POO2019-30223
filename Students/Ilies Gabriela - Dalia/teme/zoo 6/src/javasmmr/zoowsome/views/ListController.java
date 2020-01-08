@@ -5,9 +5,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JLabel;
 
-import javasmmr.zoowsome.models.animals.AddAnimalModel;
 import javasmmr.zoowsome.models.animals.Animal;
-import javasmmr.zoowsome.models.employees.AddEmployeeModel;
 import javasmmr.zoowsome.models.employees.Employee;
 
 public class ListController extends AbstractController {

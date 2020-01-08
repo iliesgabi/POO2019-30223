@@ -3,7 +3,6 @@ package javasmmr.zoowsome.views;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javasmmr.zoowsome.models.animals.AddAnimalModel;
 import javasmmr.zoowsome.models.animals.Animal;
 import javasmmr.zoowsome.models.animals.Butterfly;
 import javasmmr.zoowsome.models.animals.Cockroach;

@@ -4,7 +4,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.math.BigDecimal;
 
-import javasmmr.zoowsome.models.employees.AddEmployeeModel;
 import javasmmr.zoowsome.models.employees.Caretaker;
 import javasmmr.zoowsome.models.employees.Employee;
 
